@@ -1,0 +1,556 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+@font-face{
+    src: url(../fonts/segoeprb.ttf);
+    font-family: "sego";
+}
+@font-face{
+    src: url(../fonts/LCALLIG.TTF);
+    font-family: "french";
+}
+@font-face{
+    src: url(../fonts/Merriweather-Black.ttf);
+    font-family: "merri";
+}
+@font-face{
+    src: url(../fonts/Shelldon.ttf);
+    font-family: "shelldon";
+}
+.container{
+    padding: 20px;
+    text-align: center;
+    background-image: repeating-linear-gradient(180deg,rgb(145, 137, 32),rgb(114, 25, 9),black);
+    padding-bottom: 80px;
+}
+.international{
+    color: cornsilk;
+    font-size: 50px;
+    text-align:center;
+    padding-top: 50px;
+    font-family: shelldon;
+    letter-spacing: 3px;
+}
+.morse-code{
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: sego;
+    color: antiquewhite;
+    padding-bottom: 130px;
+}
+.code-container{
+    margin-bottom: 80px;
+}
+.M-container{
+    float: left;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+    margin-bottom: 50px;
+}
+.m-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.O-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.o-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.Oo-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.R-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.r-container{
+    float: left;
+    margin-left: 10px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.Rr-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.S-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.s-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Ss-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.E-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.C-container{
+    float: left;
+    margin-left: 50px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.c-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Cc-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.cC-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.O--container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.O-o-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.O-o-o-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.D-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+.d-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Dd-container{
+    float: left;
+    margin-left: 15px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.e-container{
+    float: left;
+    margin-left: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+.Enter{
+    background-color: chocolate;
+    font-size:30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid teal;
+    margin-left: 50px;
+}
+.con{
+    font-family: shelldon;
+    text-align: center;
+    padding: 30px;
+    font-size: 170px;
+    color: aquamarine;
+}
+.A-pic{
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    height: 120px;
+    width: 350px;
+}
+.N-pic{
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    margin-left: 270px;
+    height: 120px;
+    width: 350px;
+}
+.B-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 450px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+
+}
+.O-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 180px;
+    height: 120px;
+    width: 500px;
+}
+.C-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 470px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.P-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 170px;
+    height: 120px;
+    width: 500px;
+}
+.D-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 390px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.Q-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 250px;
+    height: 120px;
+    width: 510px;
+}
+.E-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 230px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.R-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 410px;
+    height: 120px;
+    width: 370px;
+}
+.F-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 400px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.S-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 250px;
+    height: 120px;
+    width: 330px;
+}
+.G-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 400px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.T-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 250px;
+    height: 120px;
+    width: 280px;
+}
+.H-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 390px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.U-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 260px;
+    height: 120px;
+    width: 380px;
+}
+.I-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 240px;
+    position: relative;
+    float: left;
+    margin-left: 110px;
+}
+.V-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left: 400px;
+    height: 120px;
+    width: 420px;
+}
+.J-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 490px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.W-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left:150px;
+    height: 120px;
+    width: 420px;
+}
+.K-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 450px;
+    position: relative;
+    float: left;
+    margin-left: 90px;
+}
+.X-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left:210px;
+    height: 120px;
+    width: 450px;
+}
+.L-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 450px;
+    position: relative;
+    float: left;
+    margin-left: 90px;
+}
+.Y-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left:210px;
+    height: 120px;
+    width: 460px;
+}
+.M-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 400px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.Z-pic{
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    margin-left:270px;
+    height: 120px;
+    width: 460px;
+}
+.One-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 520px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.Two-pic{
+    margin-top: 30px;
+    height: 120px;
+    width: 500px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.Three-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 500px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.Four-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 500px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.Five-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 480px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.six-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 520px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+.seven-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 520px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.eight-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 520px;
+    position: relative;
+    float: left;
+    margin-left: 70px;
+}
+.nine-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 520px;
+    position: relative;
+    float: left;
+    margin-left: 80px;
+}
+.zero-pic{
+    margin-top: 50px;
+    height: 120px;
+    width: 550px;
+    position: relative;
+    float: left;
+    margin-left: 70px;
+}
+.symbols-container{
+    text-align: center;
+}
+.dot-pic{
+    margin-top: 50px;
+    height: 140px;
+    width: 600px;
+}
+.comma-pic{
+    margin-top: 50px;
+    height: 140px;
+    width: 650px;
+
+}
+.qm-pic{
+    margin-top: 50px;
+    height: 140px;
+    width: 650px;
+
+}
